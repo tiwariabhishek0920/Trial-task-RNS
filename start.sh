@@ -5,5 +5,5 @@ node store/scrape-store-gas-price.js &
 node server/server.js &
 
 # Start React server
-cd gas-price-tracker  # Assuming your React app is in a directory named "client"
+cd gas-price-tracker
 npm start
