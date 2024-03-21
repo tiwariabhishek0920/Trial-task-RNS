@@ -45,9 +45,6 @@ async function scrapeAndStoreGasPrice() {
         const parentElement = await parentElementHandle.asElement();
 
         if (parentElement) {
-            //const parentElementHTML = await page.evaluate(element => element.outerHTML, parentElement);
-           // console.log("Parent Element HTML:", parentElementHTML);
-            // Get the inner text of the nAVAX and $ elements
             const nAVAXElement = await parentElement.$('.text-link');
             const dollarElement = await parentElement.$('.text-slate-500');
 

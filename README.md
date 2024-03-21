@@ -18,3 +18,7 @@ To start the project, follow these steps:
 4. Make the `start.sh` script executable by running:
    ```bash
    chmod +x start.sh
+5. Run the `start.sh` script by executing:
+   ```bash
+   ./start.sh
+
